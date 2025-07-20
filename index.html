@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nostra</title>
+    <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwind cdn -->
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+"
+      rel="stylesheet"
+    />
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="firstsection">
+      <p>Sign Up and GET 20% OFF for your first Order</p>
+      <p id="cancel" style="padding-left: 50px; cursor: pointer">X</p>
+    </div>
+    <header>
+      <nav>
+        <div><h1 class="font-bold text-3xl">Nostra</h1></div>
+
+        <div class="nav_menu hidden md:flex">
+          <a href="#">Home</a>
+          <a href="#newarrival">New Arrival</a>
+          <a href="#mostwanted">Most Wanted</a>
+          <a href="./collections.html">Collections</a>
+          <a href="./contact.html">Contact us</a>
+        </div>
+        <svg
+          id="menuicon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-7 w6 h-6 md:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </nav>
+    </header>
+    <!-- side-nav -->
+    <section
+      id="side-nav"
+      class="top-0 fixed z-20 transition-all duration-1000"
+    >
+      <div id="side-cancel" style="cursor: pointer">
+        <p style="text-align: right" class="p-10">X</p>
+      </div>
+      <div class="flex flex-col gap-5 ml-7">
+        <p><a class="hover:underline" href="#">Home</a></p>
+        <p><a class="hover:underline" href="#">New Arrival</a></p>
+        <p><a class="hover:underline" href="#">Most Wanted</a></p>
+        <p><a class="hover:underline" href="#">Collections</a></p>
+        <p><a class="hover:underline" href="#">Contact us</a></p>
+      </div>
+    </section>
+    <div class="container">
+      <!-- slide images section -->
+      <div class="slide mt-2 z-30">
+        <div class="slide_left">
+          <i
+            id="slide-left"
+            class="fa-solid fa-angle-left"
+            style="color: #ffffff"
+          ></i>
+        </div>
+        <div class="slide_content font-bold z-">
+          <h1 class="text-5xl font-bold text-white">
+            Level up your style with our
+          </h1>
+          <h4 class="mt-4">Summer Collections</h4>
+          <button class="mt-4">
+            Shop Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div class="slide_img">
+          <img src="./Assets/pic-1.jpg" alt="" />
+          <img src="./Assets/pic-2.jpg" alt="" />
+          <img src="./Assets/pic-3.jpg" alt="" />
+        </div>
+        <div class="slide_right">
+          <i
+            id="slide-right"
+            class="fa-solid fa-angle-right"
+            style="color: #ffffff"
+          ></i>
+        </div>
+      </div>
+      <!-- Brands -->
+      <h1 class="font-bold text-2xl mt-10 pl-5">Brands</h1>
+      <div class="brands mt-8">
+        <div class="brands-content">
+          <img src="./Assets/puma.png" alt="" />
+          <p>Puma</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/simple.png" alt="" />
+          <p>Simple</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/leaves.png" alt="" />
+          <p>Leaves</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/behance.png" alt="" />
+          <p>Behance</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/twitch.png" alt="" />
+          <p>Twitch</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/nike.png" alt="" />
+          <p>Nike</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/simple.png" alt="" />
+          <p>Simple</p>
+        </div>
+        <div class="brands-content">
+          <img src="./Assets/puma.png" alt="" />
+          <p>Puma</p>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div class="initial-scroll-animate service">
+      <div class="service ">
+      <div class="services-1">
+        <div class="text-3xl font-bold">
+          <h2>We Provide Best</h2>
+          <h2>Customer Experiences</h2>
+        </div>
+
+        <div class="text-xl">
+          <p>
+            || We ensure that our customer have the best shopping experience
+          </p>
+        </div>
+      </div>
+      <!-- cards -->
+      <div class="services-2">
+        <div>
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-regular fa-circle-check"
+          ></i>
+          <h2 class="text-xl font-bold">Original Products</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe hic
+            nisi cumque fugit.
+          </p>
+        </div>
+        <div>
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-regular fa-face-smile"
+          ></i>
+
+          <h2 class="text-xl font-bold">Original Products</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe hic
+            nisi cumque fugit.
+          </p>
+        </div>
+        <div>
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-solid fa-broom"
+          ></i>
+
+          <h2 class="text-xl font-bold">Original Products</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe hic
+            nisi cumque fugit.
+          </p>
+        </div>
+        <div>
+          <i
+            style="font-size: 3vw; margin-bottom: 10px"
+            class="fa-solid fa-truck-fast"
+          ></i>
+          <h2 class="text-xl font-bold">Original Products</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe hic
+            nisi cumque fugit.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    <h1 class="text-3xl font-bold mt-10 ml-5 mb-5 initial-scroll-animate">New Arrivals</h1>
+    <div id="newarrival" class="newarrival initial-scroll-animate">
+      <div class="newarrival-box">
+         <img src="./Assets/p1.jpg"  alt="">
+         <div class="overlay"
+         ></div>
+         <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+      <div class="newarrival-box">
+         <img src="./Assets/p2.jpg"  alt="">
+         <div class="overlay"
+         ></div>
+         <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+       <div class="newarrival-box">
+         <img src="./Assets/p3.jpg"  alt="">
+         <div class="overlay"
+         ></div>
+         <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+       <div class="newarrival-box">
+         <img src="./Assets/p4.jpg"  alt="">
+         <div class="overlay"
+         ></div>
+         <button>Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+      </div>
+    </div>
+
+    <!-- most wanted -->
+
+    <h1 class="text-3xl font-bold p-5 initial-scroll-animate">Most Wanted</h1>
+    <div id="mostwanted" class="mostwant initial-scroll-animate">
+         <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p5.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+         <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p6.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+         <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p7.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+         <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p8.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+          <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p1.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+          <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p2.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+          <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p7.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+          <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p3.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+          <div class="mostwant-box">
+          <button >sale</button>
+          <img src="./Assets/p4.jpg" class="products" alt="">
+          <img class="heart" src="./Assets/blackheart.png" alt="">
+         </div>
+    </div>
+
+  <!-- limited offer -->
+   
+        <div class="limited-offer m-5 initial-scroll-animate">
+            <div class="limited-offer-img">
+                <img src="./Assets/offer.jpg" alt="">
+            </div>
+            <div class="limited-offer-text ">
+                <h2 class=" text-4xl font-bold pb-5">Limited Offer</h2>
+                <h4 class=" text-2xl font-bold pb-5">35% OFF on this for the first 30 Customers</h4>
+                <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+        </div>
+        <!-- News Letter -->
+   <div class="news mt-10 initial-scroll-animate">
+        <h2 class="text-3xl font-bold text-center pt-5">Join our News Letter</h2>
+        <p style="text-align: center;" class="mt-5 text-xl">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+        <input class="search ">
+    </div>
+    <div>
+        <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+    </div>
+    </div>
+<div class="footer initial-scroll-animate">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText text-3xl font-bold mb-5">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum
+                    used since the 1500s is reprodused
+                    below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+
+        </div>
+                <p class="subtitle">@ 2025 Nostra.com</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

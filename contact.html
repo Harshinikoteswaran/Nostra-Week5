@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+     <!-- Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- tailwind cdn -->
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="firstsection">
+      <p>Sign Up and GET 20% OFF for your first Order</p>
+      <p id="cancel" style="padding-left: 50px; cursor: pointer">X</p>
+    </div>
+    <header>
+      <nav>
+        <div><h1 class="font-bold text-3xl">Nostra</h1></div>
+
+        <div class="nav_menu hidden md:flex">
+          <a href="./index.html">Home</a>
+          <a href="./index.html">New Arrival</a>
+          <a href="./index.html">Most Wanted</a>
+          <a href="./collections.html">Collections</a>
+          <a href="./contact.html">Contact us</a>
+        </div>
+        <svg
+          id="menuicon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-7 w6 h-6 md:hidden"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+      </nav>
+    </header>
+    <!-- side-nav -->
+    <section
+      id="side-nav"
+      class="top-0 fixed z-20 transition-all duration-1000"
+    >
+      <div id="side-cancel" style="cursor: pointer">
+        <p style="text-align: right" class="p-10">X</p>
+      </div>
+      <div class="flex flex-col gap-5 ml-7">
+        <p><a class="hover:underline" href="#">Home</a></p>
+        <p><a class="hover:underline" href="#">New Arrival</a></p>
+        <p><a class="hover:underline" href="#">Most Wanted</a></p>
+        <p><a class="hover:underline" href="#">Collections</a></p>
+        <p><a class="hover:underline" href="#">Contact us</a></p>
+      </div>
+    </section>
+    
+  <div class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  </div>
+
+      <!-- News Letter -->
+   <div class="news mt-10">
+        <h2 class="text-3xl font-bold text-center pt-5">Join our News Letter</h2>
+        <p style="text-align: center;" class="mt-5 text-xl">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+        <input class="search ">
+    </div>
+    <div>
+        <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- footer -->
+     <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText text-3xl font-bold mb-5">Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum
+                    used since the 1500s is reprodused
+                    below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+
+        </div>
+                <p class="subtitle">@ 2025 Nostra.com</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
